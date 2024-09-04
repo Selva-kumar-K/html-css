@@ -9,6 +9,9 @@
         width: 80%;
         margin: auto;
         margin-top: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
       }
       nav {
         align-content: center;
@@ -34,6 +37,10 @@
       div a {
         padding: 0px 20px;
       }
+
+      td {
+        text-align: center;
+      }
     </style>
   </head>
   <body>
@@ -45,24 +52,16 @@
           style="width: 40px"
       /></a>
 
-      <span class="">
+      <span>
         <a href="/html_css/products.html">Products</a>
         <a href="/html_css/services.html">Service Centers</a>
         <a href="/html_css/careers.html">Careers</a>
-        <a href="">Contact</a>
+        <a href="/html_css/contact.html">Contact</a>
       </span>
     </nav>
 
     <div class="">
-      <h2
-        style="
-          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
-            Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
-            sans-serif;
-        "
-      >
-        Apple iPhone 15 Pro Max
-      </h2>
+      <h2>Apple iPhone 15 Pro Max</h2>
       <img
         src="https://sm.mashable.com/t/mashable_in/review/a/apple-ipho/apple-iphone-15-pro-and-pro-max-review-close-to-perfection_y2vm.1248.jpg"
         alt=""
@@ -74,6 +73,57 @@
         89.8% screen-to-body ratio. The display is a touch screen, meaning that
         it supports touch events - interactions using a finger or stylus.
       </p>
+    </div>
+
+    <h4>Price Details</h4>
+    <table border="1" width="80%" style="margin-top: 30px; margin-bottom: 30px">
+      <tr>
+        <th>Quantity</th>
+        <th>Product Name</th>
+        <th>Price</th>
+      </tr>
+
+      <tr>
+        <td>1</td>
+        <td>Apple iPhone 15 Pro Max 128 GB</td>
+        <td>$1299</td>
+      </tr>
+
+      <tr>
+        <td colspan=""></td>
+        <td colspan="">Total Cost</td>
+        <td>$1299</td>
+      </tr>
+    </table>
+
+    <h3>Pay Using</h3>
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwKcB10hDUH9iwbbfKEkjxB3XrOHsFyAGYMw&s"
+      alt=""
+      width="40"
+    />
+    <img
+      src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/phonepe-icon.png"
+      alt=""
+      width="40"
+    />
+    <img
+      src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/upi-icon.png"
+      alt=""
+      width="40"
+    />
+
+    <div style="margin-top: 30px; margin-bottom: 30px">
+      <button
+        style="
+          padding: 10px 10px;
+          color: green;
+          font-size: 17px;
+          border-radius: 30px;
+        "
+      >
+        Pay Now
+      </button>
     </div>
   </body>
 </html>
